@@ -1,6 +1,9 @@
 module.exports = {
     //Remove space and return a sanitize file
     trim: function(str) {
+      if(str == null){
+        return "";
+      }
         return str.trim();
     },
 
@@ -9,7 +12,7 @@ module.exports = {
       for(var index = 0; index < paddingSize; index++){
         updatedElement += padder;
       }
-      
+
       return;
     },
 

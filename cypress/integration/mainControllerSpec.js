@@ -5,7 +5,7 @@ var initFn,
     getUserDetailsFn;
 var request;
 var response;
-var nxtFn;
+var nextFn;
 
 describe('MainController', function(){
   //Separate test features.
@@ -108,7 +108,9 @@ describe('MainController', function(){
            done();
          }
       });
-
   });
+
+
+
 
 })
